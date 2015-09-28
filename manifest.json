@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "KNotes Chrome Plugin",
+  "description": "This extension allow user takings notes on any movies",
+  "version": "1.0",
+  "content_scripts": [
+      {
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["KNotesChrome.js"]
+      }
+    ],
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ]
+}
