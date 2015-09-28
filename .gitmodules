@@ -1,0 +1,3 @@
+[submodule "knotes"]
+	path = knotes
+	url = https://github.com/Kalyzee/knotes-base.git
